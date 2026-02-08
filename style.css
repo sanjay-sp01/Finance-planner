@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f7;
+}
+
+.container {
+  max-width: 500px;
+  background: white;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input, button {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+li {
+  list-style: none;
+  background: #eef;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+li button {
+  background: red;
+  margin-top: 6px;
+}

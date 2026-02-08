@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Finance Goal Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Personal Finance Goal Planner</h1>
+
+    <form id="goalForm">
+      <input type="text" id="goalName" placeholder="Goal Name" required>
+      <input type="number" id="amount" placeholder="Target Amount (₹)" required>
+      <input type="number" id="months" placeholder="Duration (Months)" required>
+      <button type="submit">Add Goal</button>
+    </form>
+
+    <ul id="goalList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
